@@ -4,6 +4,10 @@ body {
   font-weight: bold;
   font-style: normal;
   color: #333;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 .logo {
@@ -63,10 +67,19 @@ button {
   font-size: 20px;
 }
 
+button:hover {
+  background-color: #3a1dbf;
+  transition: 0.3s;
+}
+
 #login {
   padding: 16px;
   background-color: #5231f7;
   border: 0px;
   font-weight: bold;
   color: #fff;
+}
+#login:hover {
+  background-color: #3a1dbf;
+  transition: 0.3s;
 }
