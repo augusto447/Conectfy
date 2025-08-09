@@ -1,0 +1,102 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  color: #fff;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  background-color: #5231f7;
+  align-items: center;
+}
+span {
+  font-size: 30px;
+  color: #333;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  text-align: center;
+}
+
+.telaLogin img {
+  width: 100px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+label {
+  color: #080808;
+  font-size: 16px;
+}
+.telaLogin {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 16px;
+  background-color: #fff;
+  border-radius: 10px;
+  width: 400px;
+  justify-content: center;
+}
+
+.caixa1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.botao2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.botao2 img {
+  width: 16px;
+  height: 16px;
+}
+
+input {
+  width: 300px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 0px;
+  border: 1px solid #626165;
+}
+
+button {
+  border-radius: 10px;
+  background-color: #fff;
+  border: 0px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #333;
+  cursor: pointer;
+}
+
+#login2 {
+  background-color: #5231f7;
+  color: #fff;
+  border: 0px;
+  padding: 10px;
+}
+#login2:hover {
+  background-color: #3a1dbf;
+}
+a {
+  text-decoration: none;
+  text-align: center;
+  font-size: 16px;
+}

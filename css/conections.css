@@ -9,12 +9,6 @@ body {
   padding: 0px;
   box-sizing: border-box;
 }
-
-.logo {
-  display: flex;
-  align-items: center;
-}
-
 span {
   font-size: 30px;
   color: #333;
@@ -24,7 +18,6 @@ span {
   font-weight: weight;
   font-style: normal;
 }
-
 nav {
   display: flex;
   align-items: center;
@@ -38,49 +31,34 @@ nav a {
   margin-right: 80px;
 }
 
-.container {
+.logo {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 40px;
 }
-#paragrafo1 {
-  color: #080808;
-  font-size: 40px;
+
+.conections {
+  display: flex;
+  gap: 300px;
+  padding: 10px;
 }
-.container img {
-  width: 100%;
-  height: 100%;
-  transform: scaleX(-1);
-  object-fit: contain;
+.conections3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  padding: 6px;
 }
 
 button {
   background-color: #5231f7;
   color: #fff;
-  padding: 20px;
-  width: 300px;
-  border-radius: 10px;
-  font-weight: bold;
-  border: 0px;
+  border: none;
+  border-radius: 5px;
   cursor: pointer;
-  font-size: 20px;
+  padding: 10px;
 }
-
-button:hover {
-  background-color: #3a1dbf;
-  transition: 0.3s;
-}
-
-#login {
-  padding: 16px;
-  background-color: #5231f7;
+.conections2 input {
+  padding: 10px;
+  width: 600px;
   border: 0px;
-  font-weight: bold;
-  color: #fff;
-  border-radius: 10px;
-}
-#login:hover {
-  background-color: #3a1dbf;
-  transition: 0.3s;
+  border: 1px solid #626165;
 }
