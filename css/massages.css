@@ -1,0 +1,111 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  color: #333;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+span {
+  font-size: 30px;
+  color: #333;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  padding: 30px;
+  margin-right: 80px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+#icones {
+  color: #333;
+  font-size: 16px;
+  margin-right: 10px;
+}
+.mensagens img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.mensagens {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: #f8f9fa;
+  border-radius: 16px;
+}
+#pessoa {
+  font-size: 18px;
+}
+
+.pessoas {
+  background-color: #fff;
+  width: 300px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #e0e0e0; /* cor da borda */
+}
+
+.chat1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#agradecimento {
+  color: #19191fb3;
+  font-size: 14px;
+}
+#pessoa {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 600;
+  color: #19191fff;
+}
+#nome {
+  font-size: 24px;
+}
+
+.chat2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.chat3 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.chat4 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.chat5 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

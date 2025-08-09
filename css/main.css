@@ -84,3 +84,8 @@ button:hover {
   background-color: #3a1dbf;
   transition: 0.3s;
 }
+#icones {
+  color: #333;
+  font-size: 16px;
+  margin-right: 10px;
+}
