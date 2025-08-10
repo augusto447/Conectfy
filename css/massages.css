@@ -48,11 +48,10 @@ nav a {
 }
 
 .mensagens {
-  padding: 10px;
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  padding: 10px;
   gap: 10px;
-  background: #f8f9fa;
   border-radius: 16px;
 }
 #pessoa {
@@ -60,11 +59,13 @@ nav a {
 }
 
 .pessoas {
+  display: flex;
   background-color: #fff;
-  width: 300px;
   padding: 10px;
   border-radius: 10px;
-  border: 1px solid #e0e0e0; /* cor da borda */
+  gap: 100px;
+
+  /* cor da borda */
 }
 
 .chat1 {
@@ -108,4 +109,21 @@ nav a {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+.menu-chat {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: 1px solid #919192b3;
+  border-radius: 16px;
+}
+
+.primeiro-chat {
+  display: flex;
+  gap: 10px;
+  border: 1px solid #919192b3;
+  padding: 20px;
+  width: 830px;
+  border-radius: 16px;
 }
