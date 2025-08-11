@@ -100,3 +100,51 @@ a {
   text-align: center;
   font-size: 16px;
 }
+@media screen and (max-width: 768px) {
+  body {
+    height: auto;
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5231f7;
+  }
+
+  .telaLogin {
+    width: 100%;
+    max-width: 320px;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .telaLogin img {
+    width: 70px;
+  }
+
+  span {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  input {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  button {
+    width: 100%;
+    font-size: 16px;
+    padding: 12px;
+  }
+
+  .botao2 {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .botao2 img {
+    width: 20px;
+    height: 20px;
+  }
+}
