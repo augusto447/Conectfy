@@ -164,7 +164,7 @@ nav a {
   background-color: #919192b3;
   border-radius: 10px;
   margin-right: 600px;
-  padding: 6px;
+  padding: 10px;
 }
 
 .mensagens-chat3 {
@@ -173,7 +173,7 @@ nav a {
   gap: 10px;
   justify-content: end;
   background-color: #2067cbff;
-  padding: 6px;
+  padding: 10px;
   border-radius: 10px;
   margin-left: 490px;
 }
@@ -198,6 +198,32 @@ nav a {
   background: #2067cbff;
   border-radius: 10px;
   margin-left: 600px;
+  padding: 10px;
+}
+
+.mensagens-chat1:hover {
+  background-color: #919192b3;
+  cursor: pointer;
+}
+
+.mensagens-chat2:hover {
+  background-color: #5231f7;
+  cursor: pointer;
+}
+
+.mensagens-chat3:hover {
+  background-color: #919192b3;
+  cursor: pointer;
+}
+
+.mensagens-chat4:hover {
+  background-color: #5231f7;
+  cursor: pointer;
+}
+
+.mensagens-chat5:hover {
+  background-color: #919192b3;
+  cursor: pointer;
 }
 
 .mensagens-chat img {
@@ -237,6 +263,54 @@ nav a:hover {
   background-color: #5231f7;
 }
 
+.chat1 {
+  border-radius: 10px;
+  padding: 10px;
+}
+.chat1:hover {
+  background: #bebcbc;
+  cursor: pointer;
+}
+
+.chat2 {
+  border-radius: 10px;
+  padding: 10px;
+}
+.chat2:hover {
+  background: #bebcbc;
+  cursor: pointer;
+}
+
+.chat3 {
+  border-radius: 10px;
+  padding: 10px;
+}
+.chat3:hover {
+  background: #bebcbc;
+  cursor: pointer;
+}
+
+.chat4 {
+  border-radius: 10px;
+  padding: 10px;
+}
+.chat4:hover {
+  background: #bebcbc;
+  cursor: pointer;
+}
+
+.chat5 {
+  border-radius: 10px;
+}
+.chat5:hover {
+  background: #bebcbc;
+  cursor: pointer;
+}
+
+.melhor-nome:hover {
+  cursor: pointer;
+}
+
 @media screen and (max-width: 768px) {
   nav {
     flex-direction: column;
@@ -245,8 +319,8 @@ nav a:hover {
   }
 
   nav a {
-    margin-right: 0;
-    padding: 8px;
+    margin-right: 10px;
+    padding: 10px;
     width: 100%;
     text-align: left;
   }
@@ -257,12 +331,12 @@ nav a:hover {
   }
 
   .primeiro-chat {
-    width: 100%;
+    width: 370px;
     padding: 10px;
   }
 
   input {
-    width: 100%;
+    width: 272px;
     font-size: 14px;
   }
 
@@ -271,9 +345,12 @@ nav a:hover {
   .mensagens-chat3,
   .mensagens-chat4,
   .mensagens-chat5 {
-    margin-left: 0;
-    margin-right: 0;
-    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 270;
+    margin-right: 0px;
+    padding: 10px;
+    margin-bottom: 10px;
   }
 
   #texto {
@@ -281,9 +358,12 @@ nav a:hover {
   }
 
   .melhor-nome {
-    gap: 20px;
-    flex-direction: column;
-    align-items: flex-start;
+    gap: 150px;
+  }
+
+  .typing {
+    display: flex;
+    align-items: center;
   }
 
   .enviar-mensagem {

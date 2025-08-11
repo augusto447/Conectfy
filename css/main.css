@@ -95,6 +95,11 @@ nav a:hover {
   background-color: #5231f7;
 }
 
+button a {
+  text-decoration: none;
+  color: #fff;
+}
+
 @media screen and (max-width: 768px) {
   nav {
     flex-direction: column;

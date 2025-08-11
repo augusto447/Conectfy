@@ -59,12 +59,12 @@ label {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 16px;
+  gap: 10px;
 }
 
 .botao2 img {
-  width: 16px;
-  height: 16px;
+  width: 20px;
+  height: 20px;
 }
 
 input {
@@ -95,6 +95,12 @@ button {
 #login2:hover {
   background-color: #3a1dbf;
 }
+
+.botao2:hover {
+  cursor: pointer;
+  background-color: #3432aa;
+}
+
 a {
   text-decoration: none;
   text-align: center;
@@ -102,7 +108,7 @@ a {
 }
 @media screen and (max-width: 768px) {
   body {
-    height: auto;
+    height: 100vh;
     padding: 20px;
     margin: 0;
     display: flex;
@@ -114,7 +120,7 @@ a {
   .telaLogin {
     width: 100%;
     max-width: 320px;
-    padding: 20px;
+    padding: 10px;
     box-sizing: border-box;
   }
 
@@ -123,24 +129,25 @@ a {
   }
 
   span {
-    font-size: 20px;
-    margin-bottom: 10px;
+    font-size: 16px;
   }
 
   input {
-    width: 100%;
+    width: 200px;
     font-size: 16px;
   }
 
   button {
     width: 100%;
     font-size: 16px;
-    padding: 12px;
+    padding: 10px;
   }
 
   .botao2 {
-    flex-direction: column;
+    display: flex;
     gap: 10px;
+    align-items: center;
+    justify-content: center;
   }
 
   .botao2 img {
