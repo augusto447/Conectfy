@@ -110,7 +110,7 @@ button:hover {
   color: #565d6dff;
   font-weight: bold;
 }
-#card1 {
+.card1 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -118,14 +118,14 @@ button:hover {
   background-color: #f8f9fa;
   padding: 10px;
   border-radius: 10px;
-  gap: 6px;
+  gap: 36px;
 }
 
-#conect:hover {
+.conect:hover {
   background-color: #392881;
   cursor: pointer;
 }
-#conect {
+.conect {
   background-color: #5231f7;
   color: #fff;
   border: none;
@@ -137,7 +137,7 @@ button:hover {
   font-weight: bold;
   font-size: 16px;
 }
-#mensages {
+.mensages {
   background-color: #f8f9fa;
   color: #000;
   border: none;
@@ -151,7 +151,7 @@ button:hover {
   border: 1px solid #ccc;
 }
 
-#mensages:hover {
+.mensages:hover {
   background-color: #fff;
   cursor: pointer;
 }
@@ -196,13 +196,13 @@ nav a:hover {
     grid-template-columns: 1fr; /* cards empilhados */
   }
 
-  #conect,
-  #mensages {
+  .conect,
+  .mensages {
     width: 100%;
     font-size: 14px;
   }
 
-  #nome {
+  .nome {
     font-size: 18px;
   }
 

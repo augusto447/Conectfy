@@ -55,14 +55,14 @@ label {
   gap: 10px;
 }
 
-.botao2 {
+#botao2 {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
 }
 
-.botao2 img {
+#botao2 img {
   width: 20px;
   height: 20px;
 }
@@ -86,17 +86,22 @@ button {
   cursor: pointer;
 }
 
-#login2 {
+#btnLogin,
+#btnSignup {
   background-color: #5231f7;
   color: #fff;
   border: 0px;
   padding: 10px;
 }
-#login2:hover {
+#btnLogin:hover {
   background-color: #3a1dbf;
 }
 
-.botao2:hover {
+#btnSignup:hover {
+  background-color: #3a1dbf;
+}
+
+#botao2:hover {
   cursor: pointer;
   background-color: #3432aa;
 }
@@ -143,14 +148,14 @@ a {
     padding: 10px;
   }
 
-  .botao2 {
+  #botao2 {
     display: flex;
     gap: 10px;
     align-items: center;
     justify-content: center;
   }
 
-  .botao2 img {
+  #botao2 img {
     width: 20px;
     height: 20px;
   }
