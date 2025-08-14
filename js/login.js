@@ -5,11 +5,6 @@ btnLogin.addEventListener("click", () => {
   const btnSignup = document.getElementById("btnSignup").value;
   const input = document.querySelector("input").value;
 
-  // Condição para verificar se o primeiro caractere é número
-  if (!isNaN(inputEmail.charAt(0))) {
-    alert("imail invalido!");
-    return 0;
-  }
   if (input == "") {
     alert("preencha os campos!");
     return 0;
@@ -20,6 +15,45 @@ btnLogin.addEventListener("click", () => {
   }
   if (inputPassword == "") {
     alert("preencha o campo!");
+    return 0;
+  }
+
+  // Condição para verificar se o primeiro caractere é número
+  if (!isNaN(inputEmail.charAt(0))) {
+    alert("imail invalido!");
+    return 0;
+  } else {
+    localStorage.setItem("loggedUserEmail", email);
+
+    alert("Login realizado com sucesso!");
+
+    window.location.href = "index.html";
+  }
+});
+
+btnSignup.addEventListener("click", () => {
+  const inputEmail = document.getElementById("email").value;
+  const inputPassword = document.getElementById("password").value;
+  const btnLogin = document.getElementById("btnLogin").value;
+  const btnSignup = document.getElementById("btnSignup").value;
+  const input = document.querySelector("input").value;
+
+  if (input == "") {
+    alert("preencha os campos!");
+    return 0;
+  }
+  if (inputEmail == "") {
+    alert("preencha o campo!");
+    return 0;
+  }
+  if (inputPassword == "") {
+    alert("preencha o campo!");
+    return 0;
+  }
+
+  // Condição para verificar se o primeiro caractere é número
+  if (!isNaN(inputEmail.charAt(0))) {
+    alert("imail invalido!");
     return 0;
   } else {
     localStorage.setItem("loggedUserEmail", email);

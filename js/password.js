@@ -10,7 +10,6 @@ const caixa = document.querySelector(".caixa1");
 
 btnEnviarCodigo.addEventListener("click", () => {
   const email = inputEmail.value.trim();
-  console.log(btnEnviarCodigo);
 
   if (!email) {
     alert("Por favor, insira um email válido.");
@@ -21,7 +20,7 @@ btnEnviarCodigo.addEventListener("click", () => {
   localStorage.setItem("resetEmail", email);
   localStorage.setItem("resetCode", codigo);
 
-  alert(`Código enviado para o email ${email} (simulado): ${codigo}`);
+  alert(`Código enviado para o email ${email} : ${codigo}`);
 
   criarCampoValidacaoCodigo();
 });
@@ -99,5 +98,3 @@ function criarFormularioNovaSenha() {
     window.location.href = "login.html";
   });
 }
-
-cont;

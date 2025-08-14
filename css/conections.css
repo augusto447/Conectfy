@@ -118,7 +118,7 @@ button:hover {
   background-color: #f8f9fa;
   padding: 10px;
   border-radius: 10px;
-  gap: 36px;
+  gap: 10px;
 }
 
 .conect:hover {
@@ -163,6 +163,9 @@ button:hover {
 }
 nav a:hover {
   background-color: #5231f7;
+  .hide {
+    display: none;
+  }
 }
 @media screen and (max-width: 768px) {
   nav {
